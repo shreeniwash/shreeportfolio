@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (max-width: 974px) { /* sm and md screens */
+    .nav_link {
+      color: #ffffff; /* white color */
+    }
+  }
+  
+
+@layer base{
+    html {
+        @apply text-PrimaryColor scroll-smooth;
+    }
+
+    body{
+        @apply overflow-x-hidden tracking-wider dark:bg-darkBodyColor dark:text-whiteColor font-poppins;
+    }
+    section{
+        @apply py-16 md:pt-28 md:pb-20 ;
+    }
+    input,select, textarea{
+      @apply w-full  dark:bg-darkBodyColor border border-gray-800 px-4 py-3 rounded-lg ;
+    }
+    input:focus,
+    input:active,
+    select:focus,
+    select:active,
+    textarea:focus,
+    textarea:active
+    {
+      @apply outline-none border-PrimaryColorLight;
+    }
+}
+@layer components {
+    .nav_link{
+        @apply relative font-bold dark:text-whiteColor;
+    }
+    .nav_link::before{
+        @apply content-[''] absolute w-full h-[2px] bg-gradient-to-r from-PrimaryColorLight to-PrimaryColor -bottom-[5px] left-0 scale-x-0 transition-transform ease-in-out origin-right duration-500;
+    }
+     
+   .active::before,.nav_link:hover::before{
+        @apply origin-left scale-x-100;
+    }
+    .btn ,.work{
+        @apply relative flex items-center justify-center py-3 overflow-hidden font-bold capitalize rounded-full bg-gradient-to-r from-PrimaryColorLight to-PrimaryColor text-whiteColor px-7;
+    }
+    .btn::before{
+        @apply content-[''] absolute w-[100%] h-[100%] bg-gradient-to-r from-PrimaryColor to-PrimaryColorLight top-0 left-0 rounded-full scale-x-0 transition-transform ease-in-out origin-right duration-300;
+    }
+    .btn:hover::before{
+        @apply scale-x-100 origin-left
+    }
+    .btn-outline{
+        @apply border border-PrimaryColorLight text-PrimaryColorLight py-4 px-9 rounded-full hover:bg-PrimaryColorLight hover:text-whiteColor;
+    }
+
+    .tittle,.subtitle{
+        @apply text-4xl  lg:text-6xl xl:text-[65px] font-bold bg-gradient-to-r from-PrimaryColorLight  to-PrimaryColor dark:to-whiteColor inline-block text-transparent bg-clip-text pb-2;
+    }
+}
+
+
+  @layer utilities{
+    .social-icon {
+        @apply relative border border-PrimaryColorLight text-PrimaryColorLight h-10 w-10 rounded-full grid place-items-center duration-300 cursor-pointer hover:text-whiteColor;
+      }
+    .social-icon i {
+        @apply absolute text-PrimaryColorLight font-bold z-10;
+      }
+      
+      .social-icon::before {
+        @apply content-[''] absolute w-[100%] h-[100%] bg-PrimaryColorLight inset-0 rounded-full transition-transform scale-0 ease-in-out duration-300;
+      }
+      
+      .social-icon:hover::before {
+        @apply origin-center scale-100 bg-PrimaryColorLight;
+      }
+      
+      .social-icon:hover i {
+        @apply text-white;
+      }
+        /* Recent works */
+      .indicator{
+        transition: left 0.4s;
+      }
+
+
+      /* .............................certifications and education................ */
+      .exp_edu_card,.exp_edu_card > p{
+        @apply duration-300;
+      }
+
+      .exp_edu_card:hover,.exp_edu_card:hover > p{
+        @apply  text-whiteColor;
+      }
+     /* my skill */
+     .skills_card{
+      @apply duration-300;
+     }
+     .skills_card:hover img{
+      @apply scale-110;
+     }
+  }
