@@ -66,7 +66,7 @@ const RecentWork = () => {
         category: "company",
         imgSrc: "wowsite.png",
         title: "Company Website",
-        description: "A website for a security company.",
+        description: "A website for a Startup company.",
         sourceCodeLink: "https://github.com/shreeniwash/Wowsite-getmeonline",
         liveDemoLink: "https://wowsite-getmeonline.vercel.app/",
       },

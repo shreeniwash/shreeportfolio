@@ -49,11 +49,11 @@ const ScrollUp = () => {
 
     sr.reveal(".hero_image");
     sr.reveal(".hero_content",{origin:"bottom"});
-    sr.reveal(".hero_experiance", {origin:"bottom", delay:1200});
+    sr.reveal(".hero_experiance", {origin:"bottom", delay:500});
 
     sr.reveal(".recent_works_top", { origin: "bottom"});
-    sr.reveal(".recent_works_tabs", { origin: "bottom", delay:800});
-    sr.reveal(".work_card", { origin: "bottom", delay:1200});
+    sr.reveal(".recent_works_tabs", { origin: "bottom", delay:300});
+    sr.reveal(".work_card", { origin: "bottom", delay:500});
 
     sr.reveal(".edu_top", { origin: "top"});
     sr.reveal(".edu_card", { origin: "right", interval:300});

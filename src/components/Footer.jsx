@@ -14,16 +14,16 @@ const Footer = () => {
           <div>
             <ul className='flex flex-wrap space-x-3 items-center justify-center'>
               <li>
-                <a href="#recent_works" className="nav_link" style={{ color: 'var(--nav-link-color)' }}>Works</a>
-              </li>
-              <li>
-                <a href="#exp_edu" className="nav_link" style={{ color: 'var(--nav-link-color)' }}>Resume</a>
+                <a href="#experiance" className="nav_link" style={{ color: 'var(--nav-link-color)' }}>Experience</a>
               </li>
               <li>
                 <a href="#skills" className="nav_link" style={{ color: 'var(--nav-link-color)' }}>Skills</a>
               </li>
               <li>
-                <a href="#blogs" className="nav_link" style={{ color: 'var(--nav-link-color)' }}>Blogs</a>
+                <a href="#recent_works" className="nav_link" style={{ color: 'var(--nav-link-color)' }}>Works</a>
+              </li>
+              <li>
+                <a href="#exp_edu" className="nav_link" style={{ color: 'var(--nav-link-color)' }}>Education</a>
               </li>
               <li>
                 <a href="#contact" className="nav_link" style={{ color: 'var(--nav-link-color)' }}>Contact</a>
