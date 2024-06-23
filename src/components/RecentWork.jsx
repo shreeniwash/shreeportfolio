@@ -42,8 +42,8 @@ const RecentWork = () => {
         imgSrc: "project-2.jpg",
         title: "The Restaurant Website",
         description: "The website for a restaurant where people can buy online and book a table.",
-        sourceCodeLink: "https://www.youtube.com/watch?v=kZQBziFZs54",
-        liveDemoLink: "https://www.youtube.com/watch?v=kZQBziFZs54",
+        sourceCodeLink: "https://github.com/shreeniwash/burger-site",
+        liveDemoLink: "https://github.com/shreeniwash/burger-site",
       },
       // Add more projects here with appropriate category, image source, title, description, and links
       {
