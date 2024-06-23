@@ -36,14 +36,7 @@ const RecentWork = () => {
 
   const renderWorkCards = (category) => {
     const works = [
-      {
-        category: "restaurant",
-        imgSrc: "project-1.jpg",
-        title: "The Restaurant Website",
-        description: "The website for a restaurant where people can buy online and book a table.",
-        sourceCodeLink: "https://www.youtube.com/watch?v=kZQBziFZs54",
-        liveDemoLink: "https://www.youtube.com/watch?v=kZQBziFZs54",
-      },
+     
       {
         category: "restaurant",
         imgSrc: "project-2.jpg",
