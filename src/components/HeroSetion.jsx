@@ -35,7 +35,7 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-wrap items-center gap-5">
-              <a href="/Resume.pdf" download="Resume.pdf" className="btn-outline">
+              <a href="/Entry-Level-Developer_Shreeniwash_Yadav.pdf" download="Entry-Level-Developer_Shreeniwash_Yadav.pdf" className="btn-outline">
                 Download CV <i className="ri-download-fill"></i>
               </a>
               <div className="flex items-center gap-5">

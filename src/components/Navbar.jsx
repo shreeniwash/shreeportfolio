@@ -122,7 +122,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
               <a href="#contact" className="nav_link">Contact</a>
             </li>
             <li>
-              <a href="/Resume.pdf" download="Resume.pdf" className="ml-10 btn">Hire Me</a>
+              <a href="/Entry-Level-Developer_Shreeniwash_Yadav.pdf" download="Entry-Level-Developer_Shreeniwash_Yadav.pdf" className="ml-10 btn">Hire Me</a>
             </li>
           </ul>
           <div id="nav-close" className="absolute text-3xl cursor-pointer text-whiteColor right-3 top-6 md:right-8">
